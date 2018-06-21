@@ -9,5 +9,6 @@ require 'pry'
 # }
 
 def get_the_keys(groceries)
-  #code your solution here!
+    #code your solution here!
+    groceries.each_key {|key| key}
 end
