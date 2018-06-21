@@ -10,7 +10,7 @@ groceries = {
 
 def get_the_min(groceries)
     #code your solution here!
-    groceries.values
+    groceries.values.min
 end
 
 puts get_the_min(groceries)
